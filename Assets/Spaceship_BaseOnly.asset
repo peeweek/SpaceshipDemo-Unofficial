@@ -23,7 +23,7 @@ MonoBehaviour:
   - Scene: {fileID: 102900000, guid: 78a4be73247578646aa741ac6e3fe7af, type: 3}
     Loaded: 1
   - Scene: {fileID: 102900000, guid: 33e38a54ff48449e78764c946dbac380, type: 3}
-    Loaded: 0
+    Loaded: 1
   - Scene: {fileID: 102900000, guid: da03cb48051707d47846750ad1261e45, type: 3}
     Loaded: 1
   - Scene: {fileID: 102900000, guid: 8b3494e242f32794593fec9351f032fb, type: 3}
