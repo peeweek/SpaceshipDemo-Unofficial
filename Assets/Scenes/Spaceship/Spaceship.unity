@@ -914,6 +914,92 @@ MonoBehaviour:
   onTriggerExit: []
   OnlyInteractWithTag: 1
   Tag: Player
+--- !u!1001 &757320362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744017, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744022, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: shaderVariants
+      value: 
+      objectReference: {fileID: 20000000, guid: d2a98484d30f25247a31ee9ce63e8ecf,
+        type: 2}
+    - target: {fileID: 1168595830609744023, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_Name
+      value: ShaderVariantWarmup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168595830609744023, guid: 9ea44aab55191f044b801cb6f4541407,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9ea44aab55191f044b801cb6f4541407, type: 3}
+--- !u!1 &757320363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1168595830609744023, guid: 9ea44aab55191f044b801cb6f4541407,
+    type: 3}
+  m_PrefabInstance: {fileID: 757320362}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &814287406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,6 +2287,7 @@ GameObject:
   - component: {fileID: 1703612902}
   - component: {fileID: 1703612901}
   - component: {fileID: 1703612903}
+  - component: {fileID: 1703612904}
   m_Layer: 0
   m_Name: OnDemoStart
   m_TagString: Untagged
@@ -2257,6 +2344,7 @@ MonoBehaviour:
   OnMessageRecieved:
   - {fileID: 1703612901}
   - {fileID: 1703612903}
+  - {fileID: 1703612904}
 --- !u!114 &1703612903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2273,6 +2361,22 @@ MonoBehaviour:
   Mixer: {fileID: 24100000, guid: 6ba17f8357488334ab441a3007933556, type: 2}
   TimeToReach: 3
   SnapshotName: master no music
+--- !u!114 &1703612904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703612899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d5f33f7af4014ea15adf7a92dc953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Enable ShaderVariantWarmup
+  Targets:
+  - GameObject: {fileID: 757320363}
+    State: 1
 --- !u!1 &1704423285
 GameObject:
   m_ObjectHideFlags: 0
