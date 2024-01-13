@@ -1246,6 +1246,97 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2102400141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2102400145}
+  - component: {fileID: 2102400144}
+  - component: {fileID: 2102400143}
+  - component: {fileID: 2102400142}
+  m_Layer: 0
+  m_Name: Skip Boot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2102400142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102400141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d5f33f7af4014ea15adf7a92dc953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Toggle GameObject(s)
+  Targets:
+  - GameObject: {fileID: 2102400141}
+    State: 0
+--- !u!114 &2102400143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102400141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a9752b2a3792a46b8a16cf93bafdd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 'Set DirectorControlRig: Play'
+  directorControlRig: {fileID: 1169057544}
+  SetPlayMode: 0
+  PlayMode: 1
+  SetWrapMode: 1
+  WrapMode: 1
+  SetTime: 1
+  Time: 8.5
+  SetStopTime: 0
+  StopTime: 1
+  SetTimeline: 0
+  TimelineAsset: {fileID: 0}
+--- !u!114 &2102400144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102400141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067ff0798d64f3f4cab5a7ddf7057db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: 27
+  OnKeyDown:
+  - {fileID: 2102400143}
+  - {fileID: 2102400142}
+  OnKeyUp: []
+--- !u!4 &2102400145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102400141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2104661581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,3 +1482,4 @@ SceneRoots:
   - {fileID: 633176312}
   - {fileID: 163113156}
   - {fileID: 427979051}
+  - {fileID: 2102400145}
