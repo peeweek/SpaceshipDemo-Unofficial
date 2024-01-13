@@ -17,5 +17,7 @@ public class VFXDebugSpaceshipMgt : MonoBehaviour
     private void OnDebugVisibilityChange(bool visible)
     {
         fpsManager.SetActive(visible);
+        Cursor.visible = visible;
+        Cursor.lockState = visible? CursorLockMode.None : CursorLockMode.Locked;
     }
 }

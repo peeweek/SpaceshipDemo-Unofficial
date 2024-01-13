@@ -717,7 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
@@ -834,6 +834,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 584525142616881988, guid: b7d1d4e91f0889f4f9da0736c75bf6b9,
         type: 3}
+      propertyPath: Padding.z
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 584525142616881988, guid: b7d1d4e91f0889f4f9da0736c75bf6b9,
+        type: 3}
       propertyPath: handleCursorVisibility
       value: 0
       objectReference: {fileID: 0}
@@ -896,6 +901,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VFXDebug
+      objectReference: {fileID: 0}
+    - target: {fileID: 584525142616881991, guid: b7d1d4e91f0889f4f9da0736c75bf6b9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
