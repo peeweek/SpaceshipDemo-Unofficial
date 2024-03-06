@@ -157,8 +157,8 @@ Mesh:
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1.198007
-  m_MeshMetrics[1]: 292.77478
+  'm_MeshMetrics[0]': 1.198007
+  'm_MeshMetrics[1]': 292.77478
   m_MeshOptimizationFlags: -1
   m_StreamData:
     serializedVersion: 2
