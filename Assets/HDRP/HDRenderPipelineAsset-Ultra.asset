@@ -167,7 +167,7 @@ MonoBehaviour:
     dynamicResolutionSettings:
       enabled: 1
       useMipBias: 1
-      advancedUpscalersByPriority: 00
+      advancedUpscalersByPriority: 0002
       DLSSPerfQualitySetting: 2
       DLSSInjectionPoint: 0
       DLSSUseOptimalSettings: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
       maxPercentage: 100
       minPercentage: 50
       dynResType: 0
-      upsampleFilter: 3
+      upsampleFilter: 5
       forceResolution: 0
       forcedPercentage: 100
       lowResTransparencyMinimumThreshold: 50

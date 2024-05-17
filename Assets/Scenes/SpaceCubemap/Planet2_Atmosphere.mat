@@ -23,19 +23,21 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Moon
-  m_Shader: {fileID: -6465566751694194690, guid: a74bb54319cd92742976d66d12576c8a,
+  m_Name: Planet2_Atmosphere
+  m_Shader: {fileID: -6465566751694194690, guid: 565e790ec1832094b94d306fbad1286e,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 3000
   stringTagMap:
     MotionVector: User
+    RenderType: Transparent
   disabledShaderPasses:
   - RayTracingPrepass
   - MOTIONVECTORS
@@ -46,18 +48,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - AlbedoLUT:
-        m_Texture: {fileID: 2800000, guid: bf1ddf9fd310c4444911d5f9bafd280b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - HeightMap:
-        m_Texture: {fileID: 2800000, guid: 845ca9e6f3ab5af4e90bc38928315f8c, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - NormalMap:
-        m_Texture: {fileID: 2800000, guid: 22b5983fe1c1ce945a0400b80f765a98, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -180,9 +170,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - BaseExponent: 0.62
-    - Vector1_b4b84cd89e90419c818ceda916a8f2ce: 2.86
-    - Vector1_b4b84cd89e90419c818ceda916a8f2ce_1: 7.01
+    - BaseExponent: 0.79
+    - Vector1_b4b84cd89e90419c818ceda916a8f2ce: 5.53
+    - Vector1_b4b84cd89e90419c818ceda916a8f2ce_1: 4.01
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -193,12 +183,12 @@ Material:
     - _AlphaCutoffPostpass: 0.5
     - _AlphaCutoffPrepass: 0.5
     - _AlphaCutoffShadow: 0.5
-    - _AlphaDstBlend: 0
+    - _AlphaDstBlend: 1
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: 0
-    - _BlendMode: 0
+    - _BlendMode: 1
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -230,14 +220,14 @@ Material:
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
-    - _DstBlend: 0
-    - _DstBlend2: 0
+    - _DstBlend: 1
+    - _DstBlend2: 10
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
     - _EmissiveIntensityUnit: 0
     - _EnableBlendModePreserveSpecularLighting: 1
-    - _EnableFogOnTransparent: 1
+    - _EnableFogOnTransparent: 0
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
@@ -272,7 +262,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _RenderQueueType: 1
+    - _RenderQueueType: 4
     - _Smoothness: 0
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0.80919915
@@ -292,7 +282,7 @@ Material:
     - _StencilWriteMaskMV: 43
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
-    - _SurfaceType: 0
+    - _SurfaceType: 1
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
@@ -309,14 +299,14 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestModeDistortion: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
-    - AtmosphericColor: {r: 0.36796096, g: 1.4841092, b: 2.3426847, a: 0}
-    - LightColor: {r: 1.9999998, g: 1.7591621, b: 1.5287957, a: 0}
+    - AtmosphericColor: {r: 0, g: 2.6627898, b: 4.6901417, a: 0}
+    - LightColor: {r: 4, g: 3.513726, b: 3.043137, a: 0}
     - LightDirection: {r: -1, g: 1, b: 1, a: 0}
     - Vector3_f12030ca4adb47f3b727cf129366ae65: {r: -1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
