@@ -7,11 +7,12 @@ using UnityEngine;
 using UnityEngine.Profiling;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 [ManagerDefaultPrefab("FPSManager")]
 public class FPSManager : Manager
 {
-    public KeyCode ToggleKey = KeyCode.F8;
+    public InputAction ToggleKey;
 
     public GameObject FPSRoot;
     public Text FPSCounter;
@@ -46,7 +47,7 @@ public class FPSManager : Manager
     {
         float dt = GetSmoothDeltaTime();
 
-        if (Input.GetKeyDown(ToggleKey) && FPSRoot != null && !recording)
+        if (ToggleKey.WasPressedThisFrame() && FPSRoot != null && !recording)
         {
             FPSRoot.SetActive(!FPSRoot.activeInHierarchy);
         }

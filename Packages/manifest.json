@@ -10,6 +10,7 @@
     "com.unity.ugui": "1.0.0",
     "net.peeweek.build-frontend": "2.0.0",
     "net.peeweek.console": "1.5.2",
+    "net.peeweek.debug-menu": "0.1.0",
     "net.peeweek.game-options": "1.2.0-preview",
     "net.peeweek.gameplay-ingredients": "2021.3.2",
     "net.peeweek.vfxgraph-extras": "2022.2.2",

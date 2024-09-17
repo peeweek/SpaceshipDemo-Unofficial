@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156762123541955460}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1203376030672308018}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5542342097643755711
 MonoBehaviour:
@@ -89,13 +89,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203376030261627652}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1203376031101775135}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1203376030261627648
 MonoBehaviour:
@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 1203376030672308020}
   - component: {fileID: 5566335703889029718}
   - component: {fileID: 1203376030672308017}
+  - component: {fileID: 7163245153948556915}
   m_Layer: 0
   m_Name: FirstPersonCharacter
   m_TagString: Player
@@ -153,6 +154,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203376030672308022}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -165,7 +167,6 @@ Transform:
   - {fileID: 4219381715669025011}
   - {fileID: 3860929650642481091}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &1203376030672308019
 CharacterController:
@@ -233,12 +234,57 @@ MonoBehaviour:
   LookExponent: 2
   MovementDeadZone: 0.15
   LookDeadZone: 0.15
-  MovementHorizontalAxis: Horizontal
-  MovementVerticalAxis: Vertical
-  LookHorizontalAxis: Look X
-  LookVerticalAxis: Look Y
-  MouseHorizontalAxis: Mouse X
-  MouseVerticalAxis: Mouse Y
+  MoveAxis:
+    m_Name: Move Axis
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2bfd1ae3-f5ce-4913-90f3-c8322c3f964d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 45765c39-c886-4664-8c65-c900aa80cee3
+      m_Path: <Gamepad>/leftStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Axis
+      m_Flags: 0
+    m_Flags: 0
+  LookAxis:
+    m_Name: Look Axis
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 41257a69-7734-4796-b373-3355ace0bb8d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: b1defbe7-d8c1-473f-9976-b2b04e450093
+      m_Path: <Gamepad>/rightStick
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Look Axis
+      m_Flags: 0
+    m_Flags: 0
+  LookMouseAxis:
+    m_Name: Look Mouse Axis
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 1feac4e3-f8ea-43b5-aeec-93c52eb70144
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 1b9e7777-769e-42ed-999b-ef34176964c0
+      m_Path: <Mouse>/delta
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Look Mouse Axis
+      m_Flags: 0
+    m_Flags: 0
 --- !u!54 &1203376030672308017
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -266,6 +312,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7163245153948556915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203376030672308022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a032c19c2962d4dadb821808065b56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1203376031101775104
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +350,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203376031101775104}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -299,7 +358,6 @@ Transform:
   m_Children:
   - {fileID: 1203376030261627651}
   m_Father: {fileID: 1203376030672308018}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1203376031101775134
 MonoBehaviour:
@@ -330,6 +388,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
+    FocusDistance: 10
     m_SensorSize: {x: 1, y: 1}
     Iso: 0
     ShutterSpeed: 0
@@ -407,13 +466,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4254947670188888185}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1203376030672308018}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5508942318679906480
 MonoBehaviour:
@@ -457,6 +516,7 @@ GameObject:
   - component: {fileID: 366231042461429324}
   - component: {fileID: 5085810186665138266}
   - component: {fileID: 3818923507763972063}
+  - component: {fileID: 5306296638458202345}
   m_Layer: 0
   m_Name: Interaction
   m_TagString: Untagged
@@ -471,13 +531,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7936723818550514911}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1203376030672308018}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5085810186665138266
 MonoBehaviour:
@@ -509,6 +569,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Interaction
   InteractiveUser: {fileID: 7263647502838701544}
+--- !u!114 &5306296638458202345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936723818550514911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ebdd020f382b24d91e934683a756de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputAction:
+    m_Name: Input
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: ccb0dae4-1604-46dd-b784-e90f3040aacd
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: bd5e9384-1682-426d-b55a-152840a3abbc
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 60c25c94-8be9-4243-92d5-20784970680f
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Input
+      m_Flags: 0
+    m_Flags: 0
+  onButtonDown:
+  - {fileID: 3818923507763972063}
 --- !u!1001 &5857360598094595957
 PrefabInstance:
   m_ObjectHideFlags: 0

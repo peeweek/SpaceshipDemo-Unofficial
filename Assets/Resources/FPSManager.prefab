@@ -401,8 +401,6 @@ GameObject:
   m_Component:
   - component: {fileID: 620406861431075375}
   - component: {fileID: 4617790184073399915}
-  - component: {fileID: 1642083546330451927}
-  - component: {fileID: 2731862089322504235}
   m_Layer: 0
   m_Name: FPSManager
   m_TagString: Untagged
@@ -439,7 +437,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f489929576839b4a9b2e03d86021953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToggleKey: 289
+  ToggleKey:
+    m_Name: Toggle Key
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 8b87ab11-5059-47b8-9b81-282c02c943c2
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 84350cee-f096-4402-bf24-f41766b65f34
+      m_Path: <Keyboard>/f8
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Toggle Key
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 511cdd2f-2d86-49bf-95b7-2b3e18e9186c
+      m_Path: <Gamepad>/select
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Toggle Key
+      m_Flags: 0
+    m_Flags: 0
   FPSRoot: {fileID: 7406197681845462411}
   FPSCounter: {fileID: 1346962776458826348}
   MillisecondCounter: {fileID: 2000451066185674605}
@@ -484,36 +506,6 @@ MonoBehaviour:
   drawShader: {fileID: 4800000, guid: 53d9e5903a2bc484d8a7a3e82dec79c2, type: 3}
   RecordInterval: 1
   recordingPaused: 0
---- !u!114 &1642083546330451927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5798934812995786650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb7550328a1a2854dbb17d655187a381, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: FPSManagerToggleAction
-  Toggle: 2
---- !u!114 &2731862089322504235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5798934812995786650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05f246f96cd54614b8232876837d4746, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Button: Select
-  OnButtonDown:
-  - {fileID: 1642083546330451927}
-  OnButtonUp: []
 --- !u!1 &5916725852226522223
 GameObject:
   m_ObjectHideFlags: 0

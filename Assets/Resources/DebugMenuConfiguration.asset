@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b65b3e4a739b74dbcb4a1b1a64f561, type: 3}
+  m_Name: DebugMenuConfiguration
+  m_EditorClassIdentifier: 
+  alignment: 1
+  width: 400
+  lineHeight: 24
+  customFont: {fileID: 12800000, guid: 32f229600eaa6fd41bfeb3d2e7d09480, type: 3}
+  fontSize: 24
+  headerColor: {r: 1, g: 0.5102249, b: 0, a: 0.9}
+  bgColor: {r: 0.1, g: 0.1, b: 0.1, a: 0.9}
+  selectedColor: {r: 1, g: 1, b: 1, a: 0.1}
+  textColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  headerTextColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedTextColor: {r: 1, g: 1, b: 1, a: 1}
+  toggle:
+    m_Name: Toggle
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: 2e5845ec-e7c7-41df-bf8b-f80dffe1cbc6
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 376c07d8-15c8-4cc0-813a-c510f63e9d3b
+      m_Path: <Gamepad>/Select
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Toggle
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 0ea009bb-6f6d-44be-aed2-9015bfbb04a4
+      m_Path: <Keyboard>/F12
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Toggle
+      m_Flags: 0
+    m_Flags: 0
+  up:
+    m_Name: Up
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: ad520d1f-eeee-44a2-bd48-6c168791a070
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 14ea070c-9e18-4562-a97b-2910d58e37ac
+      m_Path: <Gamepad>/dpad/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Up
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 1c369e7e-d2d5-405a-8059-b057d9019f4c
+      m_Path: <Keyboard>/UpArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Up
+      m_Flags: 0
+    m_Flags: 0
+  down:
+    m_Name: Down
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: 2f75d86d-b6ee-4d88-9b3b-979b6e67c324
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 47b284c1-bf15-4566-a23b-19e118050c8d
+      m_Path: <Gamepad>/dpad/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Down
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ee7dbf56-763a-4e95-93f5-45d39935297c
+      m_Path: <Keyboard>/DownArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Down
+      m_Flags: 0
+    m_Flags: 0
+  left:
+    m_Name: Left
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: c0f29426-82d8-4372-aea3-46bba24a432e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 42850b71-7566-473f-b6b4-bd7fd77f51c7
+      m_Path: <Gamepad>/dpad/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 862a1c08-a52e-4062-9c8d-78622d45349b
+      m_Path: <Keyboard>/LeftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    m_Flags: 0
+  right:
+    m_Name: Right
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: c1fc4440-96fc-4c29-a70b-b137a02bb06d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: c9c90ad9-9efc-48d9-b4c6-0d61f5d5baae
+      m_Path: <Gamepad>/dpad/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b03a405e-44f3-4d45-8562-ae48e7a14f4a
+      m_Path: <Keyboard>/RightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right
+      m_Flags: 0
+    m_Flags: 0
+  enter:
+    m_Name: Enter
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: 40bef3a5-6f97-4f90-a4e5-2868bcaa35a4
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 0489240c-4f20-4edb-af45-a04e9f169c92
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Enter
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 161f41d0-4e6a-4303-a607-6d39a1c55ee7
+      m_Path: <Keyboard>/Enter
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Enter
+      m_Flags: 0
+    m_Flags: 0
