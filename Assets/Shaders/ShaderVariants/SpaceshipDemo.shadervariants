@@ -1,0 +1,866 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpaceshipDemo
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 3dd0a46392591484b9ffaba3450c196f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: 23ca1031c783d604099896d51f3cec22, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 11bf71dbf141d4349ab19c1adc3aa5df, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 04a2fe8643c95c646bec651022acca98,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: f5ca3890de5faf2488227fbd227fcb52,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: a80894f8f02dbc14b87148f36869a51a,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: 435da77a6d2d08045a28a9ebe5796c3a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: _ALPHATEST_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 613f65f3972b74a4f9252e5cf4673928,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: _ALPHATEST_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 7e8098d4b71f789438d7cc85e89a6879,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: _ALPHATEST_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: 87e832311759b9f40918b103e662dccb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 832e4e624af9cf042bf8de1f1bd4d3c8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: dc67624d48af99e4ab89426d774623b2,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: 2856542127bfefe4598d5a3c2e1f3829, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: da2306488d12d874cb3641826d060f60,
+      type: 3}
+    second:
+      variants:
+      - keywords: DECALS_3RT INSTANCING_ON _MATERIAL_AFFECTS_ALBEDO _MATERIAL_AFFECTS_MASKMAP
+          _MATERIAL_AFFECTS_NORMAL
+        passType: 13
+      - keywords: INSTANCING_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 3989a29f501157d4c990311691ca8af0,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _DEPTHOFFSET_ON _DISABLE_DECALS _DISABLE_SSR _DISABLE_SSR_TRANSPARENT
+          _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: DECALS_3RT PROBE_VOLUMES_OFF SCREEN_SPACE_SHADOWS_ON SHADOWS_SHADOWMASK
+          SHADOW_HIGH USE_CLUSTERED_LIGHTLIST _DEPTHOFFSET_ON _DISABLE_DECALS _DISABLE_SSR
+          _DISABLE_SSR_TRANSPARENT _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+      - keywords: _DEPTHOFFSET_ON _DISABLE_DECALS _DISABLE_SSR _DISABLE_SSR_TRANSPARENT
+          _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: 860edaf42a424c040970741cd4338f77, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800002, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800014, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800012, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 12
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800016, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800018, guid: 16515b4e77f39d34eb7ca75fa4014d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 9d68e0f35ef30244eab5a64a130a61d2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: a38df47b575f7294c85bdf30e5d6dc2d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: a38df47b575f7294c85bdf30e5d6dc2d, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800008, guid: 6b830685e16d61a46a32d42f18b41995, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 6b830685e16d61a46a32d42f18b41995, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 6b830685e16d61a46a32d42f18b41995, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 6b830685e16d61a46a32d42f18b41995, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 6b830685e16d61a46a32d42f18b41995, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 0d9375b781b466b40ad87db5add40976, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 3c6ea33b1129f134bb4bd157ff9a14c7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 3c6ea33b1129f134bb4bd157ff9a14c7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 8a1b5c50c48dd774b86f441e36e30399, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 8a1b5c50c48dd774b86f441e36e30399, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: ee6916de6725a154281e7c5d51e3a89f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: ee6916de6725a154281e7c5d51e3a89f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: ee6916de6725a154281e7c5d51e3a89f, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: ee6916de6725a154281e7c5d51e3a89f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 136ee4ff3a712604399c01bf3929873f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 136ee4ff3a712604399c01bf3929873f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 136ee4ff3a712604399c01bf3929873f, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: 136ee4ff3a712604399c01bf3929873f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 92dcda10818aa9a44bb92153fbfd9106, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 92dcda10818aa9a44bb92153fbfd9106, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 92dcda10818aa9a44bb92153fbfd9106, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: 92dcda10818aa9a44bb92153fbfd9106, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: a6da47e691fd76d43a13eda07ff1a63e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: fc44f1dbc812e4244ba33f039f033128, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+      - keywords: SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: 0dbeb55227748f74ca8971e80fb21dc8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 0dbeb55227748f74ca8971e80fb21dc8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 0dbeb55227748f74ca8971e80fb21dc8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: 0dbeb55227748f74ca8971e80fb21dc8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 12
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 0dbeb55227748f74ca8971e80fb21dc8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: 0dbeb55227748f74ca8971e80fb21dc8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 12
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 2263dd46d3bc8e54ab01a24720548c40, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800002, guid: 56e67799b1ed1444dac5a3932c79e659, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: 56e67799b1ed1444dac5a3932c79e659, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800004, guid: 5a76904835c86af4f9089ceb91c1f8f3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 5a76904835c86af4f9089ceb91c1f8f3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800002, guid: 5a76904835c86af4f9089ceb91c1f8f3, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800000, guid: 97a14259dcc01c14ca0188d049dd1d1f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 85cb9755d9f33b4429d44c7a12cd90d2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 85cb9755d9f33b4429d44c7a12cd90d2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 85cb9755d9f33b4429d44c7a12cd90d2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: 4dcbb4772c5fd324caaeb159fa95d228, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 12
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 4dcbb4772c5fd324caaeb159fa95d228, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: 4dcbb4772c5fd324caaeb159fa95d228, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 12
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 4dcbb4772c5fd324caaeb159fa95d228, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 4dcbb4772c5fd324caaeb159fa95d228, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800002, guid: 4dcbb4772c5fd324caaeb159fa95d228, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800012, guid: 4dcbb4772c5fd324caaeb159fa95d228, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 6707a930b27b77a48a31a09b9073d8d6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 168df2afee0b493489724c409dd64203, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800016, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800012, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800014, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 1e9731b71935ed74daf5d94e70e47cee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: d288ce6ee0619214eaab35322f03ac83, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800000, guid: d288ce6ee0619214eaab35322f03ac83, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: efe2614994b665041b31807ead4b021d, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: b4fe7e91f1b528c49a45c21eb22d10d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 4796f571524534642986ce48a5fbd413, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 4796f571524534642986ce48a5fbd413, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 7fd1fe30818191442813b086dc7858e4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 7fd1fe30818191442813b086dc7858e4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 77ea475f326e0cf4b920e08f2407816d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 77ea475f326e0cf4b920e08f2407816d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 77ea475f326e0cf4b920e08f2407816d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: 77ea475f326e0cf4b920e08f2407816d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 77ea475f326e0cf4b920e08f2407816d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: 77ea475f326e0cf4b920e08f2407816d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800018, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800012, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800020, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800016, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800014, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: 7fe66147a719b064dae2eca99b3e7760, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 1a9b38b1b300c814b9e855bb3d018f77, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800002, guid: 1a9b38b1b300c814b9e855bb3d018f77, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: e600b9a4857d47c41bb7c2dac650850a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: e600b9a4857d47c41bb7c2dac650850a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 12
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: a90015afc76247443adc491f5ce38870, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: a90015afc76247443adc491f5ce38870, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800004, guid: a90015afc76247443adc491f5ce38870, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800006, guid: a90015afc76247443adc491f5ce38870, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: a90015afc76247443adc491f5ce38870, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: a90015afc76247443adc491f5ce38870, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: de0798b30f1c3174c8d5b7aaef3e8461, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: de0798b30f1c3174c8d5b7aaef3e8461, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: de0798b30f1c3174c8d5b7aaef3e8461, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: a00ea9360a500a046b7289ccddea56d6, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: a00ea9360a500a046b7289ccddea56d6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: a00ea9360a500a046b7289ccddea56d6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 6b907936e14202b44910ff01bb35bd8f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 6b907936e14202b44910ff01bb35bd8f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800004, guid: 6b907936e14202b44910ff01bb35bd8f, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800002, guid: 4074493e747a04741b41743e5a442ba1, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800000, guid: 4074493e747a04741b41743e5a442ba1, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800002, guid: d695a74baf335e943bf7109bb10dc691, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: d695a74baf335e943bf7109bb10dc691, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: PROBE_VOLUMES_OFF
+        passType: 13
+  - first: {fileID: 4800004, guid: d695a74baf335e943bf7109bb10dc691, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_OFF SHADOW_HIGH USE_CLUSTERED_LIGHTLIST
+        passType: 13
+  - first: {fileID: 4800006, guid: d695a74baf335e943bf7109bb10dc691, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: d695a74baf335e943bf7109bb10dc691, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: d695a74baf335e943bf7109bb10dc691, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800004, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800016, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800012, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800014, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800006, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800008, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800010, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800018, guid: 529a0289ef266534ebc56fb89780f6b1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: cc5974b9d80392149975e3bb05f1fd37, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: cc5974b9d80392149975e3bb05f1fd37, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: d64a2cb750c07e54282012c5b7743495, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800002, guid: d64a2cb750c07e54282012c5b7743495, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
