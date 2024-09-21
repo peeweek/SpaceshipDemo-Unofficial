@@ -18,10 +18,7 @@ public class FPSManager : Manager
     public Text FPSCounter;
     public Text MillisecondCounter;
     public Text CPUMillisecondCounter;    
-    public Text GPUMillisecondCounter;    
-
-    public KeyCode PauseKey = KeyCode.F5;
-    public KeyCode StepKey = KeyCode.F6;
+    public Text GPUMillisecondCounter;
 
     bool paused = false;
     bool step = false;
@@ -95,7 +92,7 @@ public class FPSManager : Manager
                 Time.timeScale = 0.0f;
             }
 
-            if (Input.GetKeyDown(PauseKey) && !recording)
+            if (Keyboard.current.f5Key.wasPressedThisFrame && !recording)
             {
                 if (recording)
                     EndRecord();
@@ -103,7 +100,7 @@ public class FPSManager : Manager
                 paused = !paused;
                 Time.timeScale = paused ? 0.0f : 1.0f;
             }
-            else if (Input.GetKeyDown(StepKey) && !recording)
+            else if (Keyboard.current.f6Key.wasPressedThisFrame && !recording)
             {
                 if (recording)
                     EndRecord();
