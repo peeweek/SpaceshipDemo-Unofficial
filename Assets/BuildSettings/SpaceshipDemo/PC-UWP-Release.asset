@@ -16,8 +16,8 @@ MonoBehaviour:
   Category: UWP
   Profile: {fileID: 11400000, guid: 44a83bf3a611941418379cd050bc0bc4, type: 2}
   SceneList: {fileID: 11400000, guid: dd790fd6ec20f15478b7a5c9a4052538, type: 2}
-  BuildPath: Build/UWP/Release/
-  ExecutableName: Spaceship.exe
+  BuildPath: Build/UWP/
+  ExecutableName: Spaceship
   CleanupBeforeBuild: 0
   OpenInExplorer: 0
   RunWithArguments: 

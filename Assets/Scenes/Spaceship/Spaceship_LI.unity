@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 260.45145, g: 321.51825, b: 425.97073, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000008, guid: aadf4fc6b2bbb974499b8f450f91cdc8,
+  m_LightingDataAsset: {fileID: 112000008, guid: ff341cdf5c417df4c9f476a3d51de8c1,
     type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
@@ -2392,7 +2391,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 7614
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 9.1835e-41, y: 1.1681476e-37, z: 1.02e-43, w: 3.5e-44}
+  m_BoundingSphereOverride: {x: 1.561202e-39, y: -9.1835e-41, z: 0, w: -3.9204957e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3263,7 +3262,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: a6d6cb13692c8104da60c914b0db604d, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 74c0bd3b074345743b5a3cdb1c2d1853, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -7118,7 +7117,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 98a1bfda0414a9945887cc9ea9ca0bf6, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: b72941f719df1b24fbd8b05be7abfa41, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -8766,7 +8765,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: c05016cd25b6e994a9a58f9865c972ef, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 00d3c9b84e2b479438b2b2e0e1883450, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -9930,6 +9929,78 @@ Transform:
   - {fileID: 1842237258}
   - {fileID: 1910976612}
   m_Father: {fileID: 2146302995}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &905983877
+GameObject:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905983879}
+  - component: {fileID: 905983878}
+  m_Layer: 0
+  m_Name: SceneIDMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &905983878
+MonoBehaviour:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905983877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2091064956}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Entries:
+  - id: 0
+    category: 0
+    gameObject: {fileID: 253856204}
+  - id: 1
+    category: 0
+    gameObject: {fileID: 802808294}
+  - id: 2
+    category: 0
+    gameObject: {fileID: 982731135}
+  - id: 3
+    category: 0
+    gameObject: {fileID: 1307099787}
+  - id: 4
+    category: 0
+    gameObject: {fileID: 1100211481}
+  - id: 5
+    category: 0
+    gameObject: {fileID: 632876387}
+  - id: 6
+    category: 0
+    gameObject: {fileID: 2110993294}
+  - id: 7
+    category: 0
+    gameObject: {fileID: 1842237257}
+  - id: 8
+    category: 0
+    gameObject: {fileID: 1910976611}
+--- !u!4 &905983879
+Transform:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905983877}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &908191440
 GameObject:
@@ -11243,7 +11314,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: f70ffe123975d984cb4ee946bb636710, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 30b75b936e36af94e8b99d1279d3dbb0, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -12217,9 +12288,9 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5155
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 1.02e-43, w: 3.6e-44}
+  m_BoundingSphereOverride: {x: 0, y: 6e-44, z: 3e-45, w: 1.35018e-40}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!1 &1100211481
@@ -12447,7 +12518,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: dceea73cc32578b4cba4820059dff118, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: b2dea81bdbdbf724fb7b5dd26bfd45d1, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -15321,7 +15392,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: bef2e52e091499f43b9cab20487cee5e, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: a44dee003130ac849a44fcdc3ef04839, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -16660,22 +16731,22 @@ PrefabInstance:
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0.123046875
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 32
+      value: 1.2023186e-30
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 12
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 6011944730506922235, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -22514,7 +22585,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 759448804}
-  m_BakedTexture: {fileID: 8900000, guid: f4b15493db0aaa240bb98fdc99eb2e34, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 1c2a937e61117e240a5862926244b60e, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -25039,7 +25110,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 759448804}
-  m_BakedTexture: {fileID: 8900000, guid: 5f740b86faa0f7348b9d38eb699f0d96, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 4820ee4be93a57342893c2bafcf99046, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -26013,7 +26084,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 20.51847}
   m_UseBoundingSphereOverride: 1
-  m_UseViewFrustumForShadowCasterCull: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 1
   m_ShadowAngle: 0
 --- !u!1001 &2045757388
@@ -26756,7 +26827,7 @@ PrefabInstance:
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 2.69e-43
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -26766,7 +26837,7 @@ PrefabInstance:
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.69e-43
+      value: 3.5e-44
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -26881,6 +26952,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2086321066}
   m_PrefabAsset: {fileID: 0}
+--- !u!115 &2091064956
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 7
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_Type: 0
+  m_ExecutionOrder: 0
+  m_ClassName: SceneObjectIDMapSceneAsset
+  m_Namespace: UnityEngine.Rendering.HighDefinition
+  m_AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
 --- !u!1 &2102322265
 GameObject:
   m_ObjectHideFlags: 0
@@ -27323,7 +27409,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 073e2057a67fbe1428cbe76c4e8e00d5, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: fb8fc687426b0cc4a990b97a8afb165b, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -28092,3 +28178,4 @@ SceneRoots:
   - {fileID: 633768100}
   - {fileID: 6021230}
   - {fileID: 153973944}
+  - {fileID: 905983879}

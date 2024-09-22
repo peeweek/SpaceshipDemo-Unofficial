@@ -169,10 +169,10 @@ MonoBehaviour:
   - title: Wave Scan
     position:
       serializedVersion: 2
-      x: -2755
-      y: 482
-      width: 1051
-      height: 434
+      x: -2763
+      y: 486
+      width: 1058
+      height: 430
     contents:
     - model: {fileID: 8926484042661615412}
       id: 0
@@ -198,10 +198,10 @@ MonoBehaviour:
   - title: Sample HeightField and Scale it
     position:
       serializedVersion: 2
-      x: 315
-      y: -146
-      width: 883
-      height: 427
+      x: 321
+      y: -142
+      width: 892
+      height: 421
     contents:
     - model: {fileID: 8926484042661615765}
       id: 0
@@ -222,9 +222,9 @@ MonoBehaviour:
     position:
       serializedVersion: 2
       x: -2375
-      y: 1629
-      width: 3051
-      height: 757
+      y: 1632
+      width: 3082
+      height: 758
     contents:
     - model: {fileID: 8926484042661616440}
       id: 0
@@ -514,7 +514,7 @@ MonoBehaviour:
   - title: Compose HeightField
     position:
       serializedVersion: 2
-      x: 2851
+      x: 3043
       y: 416
       width: 533
       height: 326
@@ -537,8 +537,8 @@ MonoBehaviour:
   - title: Connect Rays to the Source
     position:
       serializedVersion: 2
-      x: 4327
-      y: 2294
+      x: 4391
+      y: 2344
       width: 290
       height: 123
     contents: 'Rays Are connected from the tip of each pin, to the light source (not
@@ -553,8 +553,8 @@ MonoBehaviour:
   - title: Setting the Rays Size (max)
     position:
       serializedVersion: 2
-      x: 4326
-      y: 2108
+      x: 4390
+      y: 2158
       width: 290
       height: 100
     contents: First, we set-up the Size/Scale for the rays. We only Store Scale.x
@@ -564,8 +564,8 @@ MonoBehaviour:
   - title: Scale Rays by Pin Height + Cull
     position:
       serializedVersion: 2
-      x: 4328
-      y: 2463
+      x: 4392
+      y: 2513
       width: 328
       height: 142
     contents: 'Rays are then Scaled by pin''s height, based on a curve remapping.
@@ -582,8 +582,8 @@ MonoBehaviour:
   - title: Setup Color / Alpha
     position:
       serializedVersion: 2
-      x: 4335
-      y: 2682
+      x: 4399
+      y: 2732
       width: 360
       height: 142
     contents: 'Color is set up to be conservative regarding the 1/N cullling so its
@@ -597,8 +597,8 @@ MonoBehaviour:
   - title: Spawn from Point Cache
     position:
       serializedVersion: 2
-      x: 2831
-      y: -421
+      x: 3155
+      y: -430
       width: 533
       height: 401
     contents: 'Points are spawned from a point cache generated in houdini:
@@ -679,7 +679,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -3373
     y: -794
-    width: 8068
+    width: 8132
     height: 4459
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -792,7 +792,6 @@ MonoBehaviour:
   - {fileID: 8926484042661617327}
   - {fileID: 8926484042661617336}
   - {fileID: 8926484042661617357}
-  - {fileID: 8926484042661617364}
   - {fileID: 8926484042661617370}
   - {fileID: 8926484042661617372}
   - {fileID: 8926484042661617387}
@@ -1183,7 +1182,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 2113, y: -119}
+  m_UIPosition: {x: 2096, y: -108}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -7997,7 +7996,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 340, y: -67}
+  m_UIPosition: {x: 346, y: -83}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -19894,7 +19893,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -2715, y: 771}
+  m_UIPosition: {x: -2738, y: 753}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -20149,7 +20148,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -1707, y: 1711}
+  m_UIPosition: {x: -1769, y: 1710}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -20277,7 +20276,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1807, y: 2150}
+  m_UIPosition: {x: 1777, y: 2139}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -21751,31 +21750,6 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661615141}
---- !u!114 &8926484042661617364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e24f5c333a68a5241bf815a7478274fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 114350483966674976}
-  m_Children: []
-  m_UIPosition: {x: 1900, y: -303}
-  m_UICollapsed: 0
-  m_UISuperCollapsed: 0
-  m_InputSlots: []
-  m_OutputSlots:
-  - {fileID: 8926484042661617562}
-  - {fileID: 8926484042661617563}
-  - {fileID: 8926484042661617564}
-  - {fileID: 8926484042661617565}
-  Asset: {fileID: -3256353808211938606, guid: c24cc47904373184092cad26a6bd2e31, type: 3}
 --- !u!114 &8926484042661617370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26698,142 +26672,6 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
   m_LinkedSlots: []
---- !u!114 &8926484042661617562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c52d920e7fff73b498050a6b3c4404ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661617562}
-  m_MasterData:
-    m_Owner: {fileID: 8926484042661617364}
-    m_Value:
-      m_Type:
-        m_SerializableType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 
-    m_Space: 2147483647
-  m_Property:
-    name: Point Count
-    m_serializedType:
-      m_SerializableType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-  m_Direction: 1
-  m_LinkedSlots: []
---- !u!114 &8926484042661617563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70a331b1d86cc8d4aa106ccbe0da5852, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661617563}
-  m_MasterData:
-    m_Owner: {fileID: 8926484042661617364}
-    m_Value:
-      m_Type:
-        m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: 
-    m_Space: 2147483647
-  m_Property:
-    name: 'AttributeMap : position'
-    m_serializedType:
-      m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  m_Direction: 1
-  m_LinkedSlots: []
---- !u!114 &8926484042661617564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70a331b1d86cc8d4aa106ccbe0da5852, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661617564}
-  m_MasterData:
-    m_Owner: {fileID: 8926484042661617364}
-    m_Value:
-      m_Type:
-        m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: 
-    m_Space: 2147483647
-  m_Property:
-    name: 'AttributeMap : color'
-    m_serializedType:
-      m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  m_Direction: 1
-  m_LinkedSlots: []
---- !u!114 &8926484042661617565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70a331b1d86cc8d4aa106ccbe0da5852, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661617565}
-  m_MasterData:
-    m_Owner: {fileID: 8926484042661617364}
-    m_Value:
-      m_Type:
-        m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: 
-    m_Space: 2147483647
-  m_Property:
-    name: 'AttributeMap : size'
-    m_serializedType:
-      m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  m_Direction: 1
-  m_LinkedSlots: []
 --- !u!114 &8926484042661617566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27132,7 +26970,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -437, y: 3506}
+  m_UIPosition: {x: -497, y: 3509}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
