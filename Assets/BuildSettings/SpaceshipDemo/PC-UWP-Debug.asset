@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7d5bb3f971603247917785e7ea66453, type: 3}
-  m_Name: PC-UWP-Release
+  m_Name: PC-UWP-Debug
   m_EditorClassIdentifier: 
-  Name: UWP (Master)
+  Name: UWP (Debug)
   Category: UWP
-  Profile: {fileID: 11400000, guid: bcf450b40fed6754c9d558733eca2605, type: 2}
+  Profile: {fileID: 11400000, guid: 44a83bf3a611941418379cd050bc0bc4, type: 2}
   SceneList: {fileID: 11400000, guid: dd790fd6ec20f15478b7a5c9a4052538, type: 2}
   BuildPath: Build/UWP/
-  ExecutableName: Spaceship-Master
+  ExecutableName: Spaceship
   CleanupBeforeBuild: 0
   OpenInExplorer: 0
   RunWithArguments: 
