@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,13 +39,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 260.45145, g: 321.51825, b: 425.97073, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -68,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -98,7 +94,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: aadf4fc6b2bbb974499b8f450f91cdc8,
+  m_LightingDataAsset: {fileID: 112000002, guid: ff341cdf5c417df4c9f476a3d51de8c1,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: d9b45018e7dbab44d852660e46c68171,
     type: 2}
@@ -220,13 +216,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6102400765803767078, guid: d7642235c7b959442a859d9aec155947,
         type: 3}
-      propertyPath: patches.Array.data[0]
+      propertyPath: 'patches.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 42abc21ab39311946845802d6493f724,
         type: 2}
     - target: {fileID: 6102400765803767078, guid: d7642235c7b959442a859d9aec155947,
         type: 3}
-      propertyPath: patches.Array.data[1]
+      propertyPath: 'patches.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: 42abc21ab39311946845802d6493f724,
         type: 2}
@@ -493,13 +489,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6102400765803767078, guid: d7642235c7b959442a859d9aec155947,
         type: 3}
-      propertyPath: patches.Array.data[0]
+      propertyPath: 'patches.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 413dac4fdc54bb747b7c4eb1e7552ad8,
         type: 2}
     - target: {fileID: 6102400765803767078, guid: d7642235c7b959442a859d9aec155947,
         type: 3}
-      propertyPath: patches.Array.data[1]
+      propertyPath: 'patches.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: 413dac4fdc54bb747b7c4eb1e7552ad8,
         type: 2}
@@ -689,13 +685,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6102400765803767078, guid: d7642235c7b959442a859d9aec155947,
         type: 3}
-      propertyPath: patches.Array.data[0]
+      propertyPath: 'patches.Array.data[0]'
       value: 
       objectReference: {fileID: 11400000, guid: 548ae1b40797b9f43be50620ee9670ad,
         type: 2}
     - target: {fileID: 6102400765803767078, guid: d7642235c7b959442a859d9aec155947,
         type: 3}
-      propertyPath: patches.Array.data[1]
+      propertyPath: 'patches.Array.data[1]'
       value: 
       objectReference: {fileID: 11400000, guid: 548ae1b40797b9f43be50620ee9670ad,
         type: 2}

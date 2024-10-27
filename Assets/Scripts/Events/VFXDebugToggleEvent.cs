@@ -12,11 +12,13 @@ public class VFXDebugToggleEvent : EventBase
 
     private void OnEnable()
     {
-        VFXDebugRuntimeView.instance.onDebugVisibilityChange += Instance_onDebugVisibilityChange;
+        if(VFXDebugRuntimeView.instance != null) 
+            VFXDebugRuntimeView.instance.onDebugVisibilityChange += Instance_onDebugVisibilityChange;
     }
     private void OnDisable()
     {
-        VFXDebugRuntimeView.instance.onDebugVisibilityChange -= Instance_onDebugVisibilityChange;
+        if (VFXDebugRuntimeView.instance != null)
+            VFXDebugRuntimeView.instance.onDebugVisibilityChange -= Instance_onDebugVisibilityChange;
     }
     private void Instance_onDebugVisibilityChange(bool visible)
     {
