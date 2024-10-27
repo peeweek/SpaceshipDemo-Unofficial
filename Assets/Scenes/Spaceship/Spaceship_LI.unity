@@ -834,34 +834,6 @@ MonoBehaviour:
   m_Script: {fileID: 105943806}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries:
-  - id: 0
-    category: 0
-    gameObject: {fileID: 2110993294}
-  - id: 1
-    category: 0
-    gameObject: {fileID: 1100211481}
-  - id: 2
-    category: 0
-    gameObject: {fileID: 802808294}
-  - id: 3
-    category: 0
-    gameObject: {fileID: 1307099787}
-  - id: 4
-    category: 0
-    gameObject: {fileID: 253856204}
-  - id: 5
-    category: 0
-    gameObject: {fileID: 982731135}
-  - id: 6
-    category: 0
-    gameObject: {fileID: 1910976611}
-  - id: 7
-    category: 0
-    gameObject: {fileID: 1842237257}
-  - id: 8
-    category: 0
-    gameObject: {fileID: 632876387}
 --- !u!4 &48104767
 Transform:
   m_ObjectHideFlags: 19
@@ -1881,7 +1853,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 3750
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 6.8463e-41, y: 2.524355e-29, z: 0, w: 2.7470774e+20}
+  m_BoundingSphereOverride: {x: 5.2554e-41, y: 2.524355e-29, z: 0, w: 1.43e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -2648,8 +2620,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 7614
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 2.8557495e+32, y: 2.4263345e+20, z: 1.9443517e+31,
-    w: 1.7259743e+25}
+  m_BoundingSphereOverride: {x: 7.0169e-41, y: 2.524355e-29, z: 0, w: 1.37e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -3336,7 +3307,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 3000
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: -1.5157426e+12, y: NaN, z: -5.161093e-24, w: -4.5264746e-27}
+  m_BoundingSphereOverride: {x: 5.1718e-41, y: 2.524355e-29, z: 0, w: -2.9268333e-29}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -6883,7 +6854,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 3750
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.510026e+16, z: 1.3555956e-19, w: 1.5441969e+25}
+  m_BoundingSphereOverride: {x: 2.7266804e-20, y: 2.112322e-39, z: 5.1718e-41, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -8928,7 +8899,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 3750
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 3.66e-43, y: 6e-45, z: 2.1e-44, w: 0}
+  m_BoundingSphereOverride: {x: 8.69e-43, y: 1e-43, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -9976,7 +9947,7 @@ Transform:
   m_GameObject: {fileID: 852860044}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70710576, y: -0, z: -0, w: 0.70710784}
-  m_LocalPosition: {x: -13.330018, y: 1.11, z: 24.979}
+  m_LocalPosition: {x: -12.839, y: 1.11, z: 24.979}
   m_LocalScale: {x: 14.81, y: 1.3991692, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10063,8 +10034,8 @@ MonoBehaviour:
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
   m_NonLightmappedOnly: 0
-  m_ShapeWidth: 14.81
-  m_ShapeHeight: 1.3991692
+  m_ShapeWidth: 10
+  m_ShapeHeight: 1.5
   m_AspectRatio: 1
   m_ShapeRadius: 0
   m_SoftnessScale: 1
@@ -10188,7 +10159,7 @@ Light:
   serializedVersion: 11
   m_Type: 3
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5376416
+  m_Intensity: 0.2546479
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -10229,11 +10200,11 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 14.81, y: 1.3991692}
+  m_AreaSize: {x: 10, y: 1.5}
   m_BounceIntensity: 1
   m_ColorTemperature: 7614
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 17.437973}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 15.055937}
   m_UseBoundingSphereOverride: 1
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -13117,8 +13088,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5155
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 6.29003e-25, y: -0.0000000085708205, z: 4.782042e-37,
-    w: -2.400887e-26}
+  m_BoundingSphereOverride: {x: 8.69e-43, y: 8.1e-44, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -15422,7 +15392,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 10992
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 4.7740235e-20, y: 2.295993e-39, z: 5.591e-41, w: 6.2035247e+22}
+  m_BoundingSphereOverride: {x: 8.69e-43, y: 7.6e-44, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -15748,7 +15718,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6500
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: -1.5157426e+12, y: NaN, z: -5.161093e-24, w: -4.8371656e-27}
+  m_BoundingSphereOverride: {x: 6.2097996e+22, y: 7.7140256e+31, z: 538860700, w: 3.9415303e+12}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -17719,7 +17689,8 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 4000
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 3.4522e-41, y: 2.524355e-29, z: 0, w: 3.9415303e+12}
+  m_BoundingSphereOverride: {x: 8.480153e-33, y: 1.7086692e+19, z: 1.7591639e+22,
+    w: 1.5782375e-19}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -17869,17 +17840,17 @@ PrefabInstance:
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 4.3e-44
+      value: -2.8608943e-29
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 6.98e-43
+      value: 6.8591e-41
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.99e-43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -23811,7 +23782,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 6.98e-43, y: 1.12e-43, z: 0, w: 4.3e-44}
+  m_BoundingSphereOverride: {x: -1.5157426e+12, y: NaN, z: -5.161093e-24, w: -3.5638924e-29}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -24051,7 +24022,8 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 3750
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.469367e-39, y: -2.015625, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.3555899e-19, y: 1.5270977e+28, z: 6.976833e+22,
+    w: 1.7589351e+22}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -24300,7 +24272,7 @@ MonoBehaviour:
     influence:
       m_Shape: 0
       m_BoxSize: {x: 11.776226, y: 6.517144, z: 10}
-      m_BoxBlendDistancePositive: {x: 1.3415909, y: 1.851429, z: 0}
+      m_BoxBlendDistancePositive: {x: 4.05, y: 1.851429, z: 0}
       m_BoxBlendDistanceNegative: {x: 0.57476616, y: 1.3083258, z: 0}
       m_BoxBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
       m_BoxBlendNormalDistanceNegative: {x: 0, y: 0, z: 0}
@@ -24309,7 +24281,7 @@ MonoBehaviour:
       m_SphereRadius: 3
       m_SphereBlendDistance: 0
       m_SphereBlendNormalDistance: 0
-      m_EditorAdvancedModeBlendDistancePositive: {x: 1.3415909, y: 1.851429, z: 0}
+      m_EditorAdvancedModeBlendDistancePositive: {x: 4.05, y: 1.851429, z: 0}
       m_EditorAdvancedModeBlendDistanceNegative: {x: 0.57476616, y: 1.3083258, z: 0}
       m_EditorSimplifiedModeBlendDistance: 0
       m_EditorAdvancedModeBlendNormalDistancePositive: {x: 0, y: 0, z: 0}
@@ -24571,7 +24543,7 @@ MonoBehaviour:
     'sh[24]': 0
     'sh[25]': 0
     'sh[26]': 0
-  m_SHValidForCapturePosition: {x: 0, y: 0, z: 0}
+  m_SHValidForCapturePosition: {x: -Infinity, y: -Infinity, z: -Infinity}
   m_SHValidForSourcePosition: {x: 0, y: 0, z: 0}
   m_HDProbeVersion: 9
   m_ObsoleteInfiniteProjection: 0
@@ -28834,7 +28806,7 @@ PrefabInstance:
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 6.98e-43
+      value: 8.69e-43
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
