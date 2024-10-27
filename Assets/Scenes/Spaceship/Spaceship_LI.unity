@@ -42,7 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -2654,7 +2655,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 1
-  m_ShapeRadius: 1
+  m_ShapeRadius: 3
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -2825,7 +2826,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 0
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 3
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -5276,7 +5277,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 3.6
-  m_ShapeRadius: 2
+  m_ShapeRadius: 3
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -5439,7 +5440,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 3.6, y: 0.5}
+  m_AreaSize: {x: 3.6, y: 0}
   m_BounceIntensity: 1
   m_ColorTemperature: 3450
   m_UseColorTemperature: 1
@@ -5447,7 +5448,7 @@ Light:
   m_UseBoundingSphereOverride: 1
   m_UseViewFrustumForShadowCasterCull: 0
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 3
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -6289,7 +6290,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 1
-  m_ShapeRadius: 2
+  m_ShapeRadius: 4
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -6452,7 +6453,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
   m_ColorTemperature: 12856
   m_UseColorTemperature: 1
@@ -6460,7 +6461,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 4
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -6473,13 +6474,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602328675}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.32196882, y: 0.2864912, z: -0.89647746, w: -0.102892905}
+  m_LocalRotation: {x: -0.3001291, y: 0.43290707, z: -0.8356677, w: -0.15547802}
   m_LocalPosition: {x: 2.27, y: 4.14, z: -1.974}
   m_LocalScale: {x: 1, y: 1.0000011, z: 1.0000011}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1316596242}
-  m_LocalEulerAnglesHint: {x: 144.555, y: 219.511, z: -0.000015258789}
+  m_LocalEulerAnglesHint: {x: 125.228, y: 219.511, z: 0}
 --- !u!1 &607034018
 GameObject:
   m_ObjectHideFlags: 0
@@ -18845,7 +18846,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 1
-  m_ShapeRadius: 1
+  m_ShapeRadius: 3
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -19008,7 +19009,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
   m_ColorTemperature: 3450
   m_UseColorTemperature: 1
@@ -19016,7 +19017,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 0
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 3
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -19070,7 +19071,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 1
-  m_ShapeRadius: 2
+  m_ShapeRadius: 4
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -19241,7 +19242,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 4
   m_ShadowAngle: 0
   m_LightUnit: 0
   m_LuxAtDistance: 1
@@ -19254,13 +19255,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546712215}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.32092446, y: 0.28661108, z: -0.89685184, w: 0.102559306}
+  m_LocalRotation: {x: 0.30185196, y: 0.4182216, z: -0.8435519, w: 0.14965406}
   m_LocalPosition: {x: -2.49, y: 4.14, z: -1.979}
   m_LocalScale: {x: 0.99999976, y: 0.9999995, z: 0.9999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1316596242}
-  m_LocalEulerAnglesHint: {x: 144.555, y: 140.622, z: 0}
+  m_LocalEulerAnglesHint: {x: 127.257, y: 140.62201, z: 0}
 --- !u!1 &1547365125
 GameObject:
   m_ObjectHideFlags: 0
@@ -22204,7 +22205,7 @@ PrefabInstance:
     - target: {fileID: 3857027574409758198, guid: fcb020281c9bf5e42a6cc1db8ab57eb5,
         type: 3}
       propertyPath: m_UseBoundingSphereOverride
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4116583974851516955, guid: fcb020281c9bf5e42a6cc1db8ab57eb5,
         type: 3}
@@ -27570,7 +27571,7 @@ PrefabInstance:
     - target: {fileID: 3857027574409758198, guid: fcb020281c9bf5e42a6cc1db8ab57eb5,
         type: 3}
       propertyPath: m_UseBoundingSphereOverride
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4116583974851516955, guid: fcb020281c9bf5e42a6cc1db8ab57eb5,
         type: 3}
