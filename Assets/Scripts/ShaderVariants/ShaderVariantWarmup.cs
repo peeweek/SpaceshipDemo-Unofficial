@@ -5,6 +5,7 @@ public class ShaderVariantWarmup : MonoBehaviour
     public ShaderVariantCollection shaderVariants;
     void Start()
     {
-        shaderVariants.WarmUp();
+        if(!Application.isEditor)
+            shaderVariants.WarmUp();
     }
 }

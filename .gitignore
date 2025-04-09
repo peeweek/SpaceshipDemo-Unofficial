@@ -50,3 +50,4 @@ ProjectSettings/SceneTemplateSettings.json
 Packages/packages-lock.json
 Assets/WSATestCertificate.pfx
 Assets/WSATestCertificate.pfx.meta
+.vscode

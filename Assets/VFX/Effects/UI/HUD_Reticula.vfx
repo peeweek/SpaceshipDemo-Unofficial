@@ -273,8 +273,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -3711
     y: -3325
-    width: 9638
-    height: 6676
+    width: 9670
+    height: 6671
 --- !u!114 &105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5193,7 +5193,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.0,"g":0.04003102332353592,"b":0.3019607961177826,"a":0.43529412150382998}'
+      m_SerializableObject: '{"r":0.06341223418712616,"g":0.12270268052816391,"b":0.5377358198165894,"a":0.6745098233222961}'
     m_Space: -1
   m_Property:
     name: 
@@ -15938,22 +15938,24 @@ MonoBehaviour:
           type: 3}
         materialSettings:
           m_PropertyNames:
+          - _AlphaSrcBlend
           - _StencilRefDepth
-          - _StencilWriteMaskDepth
-          - _StencilRefMV
-          - _StencilWriteMaskMV
-          - _StencilWriteMaskGBuffer
           - _StencilRefGBuffer
+          - _StencilRefMV
+          - _StencilWriteMaskDepth
+          - _StencilWriteMaskGBuffer
+          - _StencilWriteMaskMV
           - _ZTestGBuffer
           m_PropertyValues:
           - 0
-          - 8
-          - 32
-          - 40
-          - 14
+          - 1
           - 2
+          - 33
+          - 9
+          - 14
+          - 43
           - 4
-          renderQueue: -1
+          renderQueue: 3700
 --- !u!114 &1124
 MonoBehaviour:
   m_ObjectHideFlags: 0

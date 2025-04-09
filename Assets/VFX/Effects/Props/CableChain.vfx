@@ -36,10 +36,10 @@ MonoBehaviour:
   - title: Per-Cable Progress
     position:
       serializedVersion: 2
-      x: -2944
-      y: 612
-      width: 554
-      height: 236
+      x: -2928
+      y: 530
+      width: 556
+      height: 227
     contents:
     - model: {fileID: 8926484042661614628}
       id: 0
@@ -82,10 +82,10 @@ MonoBehaviour:
   - title: Sample Progress on Input Bezier Chain
     position:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 100
-      height: 100
+      x: -1056
+      y: 293
+      width: 687
+      height: 270
     contents:
     - model: {fileID: 8926484042661614644}
       id: 0
@@ -199,10 +199,10 @@ MonoBehaviour:
     collapsed: 1
   uiBounds:
     serializedVersion: 2
-    x: -2919
+    x: -2928
     y: -2938
-    width: 4507
-    height: 4460
+    width: 4516
+    height: 4501
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1661,7 +1661,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -2567, y: 705}
+  m_UIPosition: {x: -2551, y: 622}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -1825,7 +1825,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -2919, y: 672}
+  m_UIPosition: {x: -2903, y: 589}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
@@ -4294,7 +4294,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614742}
       inputSlot: {fileID: 8926484042661614651}
-    position: {x: -1064, y: 383}
+    position: {x: -1031, y: 352}
     expandedSlots: []
     expanded: 0
     supecollapsed: 0
