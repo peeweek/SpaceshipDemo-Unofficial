@@ -26,8 +26,15 @@ public class FPSManager : Manager
     FrameTiming[] ftm_timings;
     const uint ftm_timingCount = 32;
 
+    private void OnEnable()
+    {
+        ToggleKey.Enable();
+    }
+
     private void OnDisable()
     {
+        ToggleKey.Disable();
+
         if (recording)
             EndRecord();
     }
