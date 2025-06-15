@@ -834,6 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 105943806}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Entries: []
 --- !u!4 &48104767
 Transform:
   m_ObjectHideFlags: 19
@@ -13090,7 +13091,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 8.69e-43, y: 8.1e-44, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -27986,7 +27987,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 20.51847}
   m_UseBoundingSphereOverride: 1
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ForceVisible: 0
   m_ShadowRadius: 1
   m_ShadowAngle: 0

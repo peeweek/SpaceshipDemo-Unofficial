@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: VFXVolumeMixer
   m_EditorClassIdentifier: 
   active: 1
-  m_AdvancedMode: 0
   CustomFloatParameter1:
     m_OverrideState: 0
     m_Value: 0
   CustomFloatParameter2:
     m_OverrideState: 1
-    m_Value: 0.23
+    m_Value: 0.05
   CustomFloatParameter3:
     m_OverrideState: 0
     m_Value: 0
@@ -65,51 +64,27 @@ MonoBehaviour:
   CustomColorParameter1:
     m_OverrideState: 1
     m_Value: {r: 0.69292223, g: 0.39906517, b: 0.1559982, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   CustomColorParameter2:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   CustomColorParameter3:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   CustomColorParameter4:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   CustomColorParameter5:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   CustomColorParameter6:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   CustomColorParameter7:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
   CustomColorParameter8:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

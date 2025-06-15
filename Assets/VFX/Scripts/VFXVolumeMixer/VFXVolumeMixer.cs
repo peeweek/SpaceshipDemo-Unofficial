@@ -36,47 +36,62 @@ public class VFXVolumeMixer : VolumeComponent
     {
         get
         {
-            if (s_Stack == null)
-                s_Stack = VolumeManager.instance.CreateStack();
+            if (s_Stack == null || !s_Stack.isValid)
+            {
+                Initialize();
+            }
             return s_Stack;
         }
     }
-    static VolumeStack s_Stack; 
+    static VolumeStack s_Stack;
 
-    static void UpdateStack(Transform trigger, LayerMask layerMask)
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+    static void Initialize()
     {
-        if(VolumeManager.instance != null)
+        s_Stack = VolumeManager.instance.CreateStack();
+    }
+
+    static bool UpdateStack(Transform trigger, LayerMask layerMask)
+    {
+        if (VolumeManager.instance != null && stack != null && stack.isValid)
+        {
             VolumeManager.instance.Update(stack, trigger, layerMask);
+            return true;
+        }
+        return false;
     }
 
     public static float GetFloatValueAt(int index, Transform trigger, LayerMask layerMask)
     {
-        UpdateStack(trigger, layerMask);
-        return GetFloatValueAt(index);
+        if(UpdateStack(trigger, layerMask))
+            return GetFloatValueAt(index);
+        else return 0f;
     }
 
     public static float GetFloatValueAt(int index)
     {
         var component = stack.GetComponent<VFXVolumeMixer>();
-        
-        switch(index)
+
+        switch (index)
         {
             default: throw new System.IndexOutOfRangeException();
-            case 0: return component.CustomFloatParameter1.value; 
-            case 1: return component.CustomFloatParameter2.value; 
-            case 2: return component.CustomFloatParameter3.value; 
-            case 3: return component.CustomFloatParameter4.value; 
-            case 4: return component.CustomFloatParameter5.value; 
-            case 5: return component.CustomFloatParameter6.value; 
-            case 6: return component.CustomFloatParameter7.value; 
-            case 7: return component.CustomFloatParameter8.value; 
+            case 0: return component.CustomFloatParameter1.value;
+            case 1: return component.CustomFloatParameter2.value;
+            case 2: return component.CustomFloatParameter3.value;
+            case 3: return component.CustomFloatParameter4.value;
+            case 4: return component.CustomFloatParameter5.value;
+            case 5: return component.CustomFloatParameter6.value;
+            case 6: return component.CustomFloatParameter7.value;
+            case 7: return component.CustomFloatParameter8.value;
         }
+
     }
 
     public static Vector3 GetVectorValueAt(int index, Transform trigger, LayerMask layerMask)
     {
-        UpdateStack(trigger, layerMask);
-        return GetVectorValueAt(index);
+        if(UpdateStack(trigger, layerMask))
+            return GetVectorValueAt(index);
+        else return Vector3.zero;
     }
 
     public static Vector3 GetVectorValueAt(int index)
@@ -96,11 +111,11 @@ public class VFXVolumeMixer : VolumeComponent
             case 7: return component.CustomVector3Parameter8.value;
         }
     }
-
     public static Color GetColorValueAt(int index, Transform trigger, LayerMask layerMask)
     {
-        UpdateStack(trigger, layerMask);
-        return GetColorValueAt(index);
+        if (UpdateStack(trigger, layerMask))
+            return GetColorValueAt(index);
+        else return Color.black;
     }
 
     public static Color GetColorValueAt(int index)
