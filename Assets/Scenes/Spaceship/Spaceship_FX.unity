@@ -369,6 +369,52 @@ MonoBehaviour:
   blendDistance: 2
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 01a29a1057481b4408dd60f324c8c516, type: 2}
+--- !u!28 &69183574
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparkleBurst_Shake_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 9
+  m_Height: 1
+  m_CompleteImageSize: 144
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 144
+  _typelessdata: aaf16641e6d06a406891b1400000803f6ce79241cba17d406abc943f0000803fc8765a41d34d864022db95400000803f62104e410f2d7a40e17a98400000803f20b05641b5c87640bc9f3a3f0000803f62104e4115ae8b404f8df73f0000803f7f6a7c41d34d86405fe5f03f0000803fa2454041e6d06a406891b1400000803f7f6a7c41c520684050e3e53e0000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &70128872
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,52 +477,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1089274156}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &111618071
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SparkleBurst_Shake_DirectionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 9
-  m_Height: 1
-  m_CompleteImageSize: 72
-  m_MipsStripped: 0
-  m_TextureFormat: 17
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 72
-  _typelessdata: 003c00800000003c003c00000000003c003c00800000003c003c00800000003c003c00000000003c003c00000000003c003c00000000003c003c00800000003c003c00000000003c
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &116178197
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +792,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1395806315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!28 &239219741
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparkleBurst_Shake_DirectionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 18
+  m_Height: 1
+  m_CompleteImageSize: 144
+  m_MipsStripped: 0
+  m_TextureFormat: 17
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 144
+  _typelessdata: 0737ec3ab833003c9935dcb9ad38003c5b357dbbd92e003c5c32deba91b7003c533319bb67b6003c5b357dbbd92e003ce8b1d33acfb7003c9935dcb9ad38003cf1b939b9d0b0003c9935dcb9ad38003cf1b939b9d0b0003c5bb1053b3237003c5b357dbbd92e003cb63648b8deb9003c5c32deba91b7003c1ab2f63a4537003cf1b939b9d0b0003c533319bb67b6003c
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &251213986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,52 +1232,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 627836607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &379361364
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SparkleBurst_Shake_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 18
-  m_Height: 1
-  m_CompleteImageSize: 288
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 288
-  _typelessdata: a34587c1005be53c0e09b8410000803f06569ec104587940e8d7b5410000803fec5126c10a587940e8d7b5410000803f8f97c2c1d4f98640bafad6410000803f23db27c19e1a7f409ecbdb410000803f4c37e9c00e587940e8d7b5410000803f49e184c100ee7cbe270dda410000803f06569ec104587940e8d7b5410000803fe9fb99c1d07889409a75c3410000803fe27a85c106587940e8d7b5410000803fc62081c1d17889409a75c3410000803f84955bc1d4d0a23f891db1410000803fec5126c10a587940e8d7b5410000803f570e6fc16e68714063ecdd410000803f6cbca9c1d7f98640b9fad6410000803f7abe79c1b0ce573fbf7bb7410000803fe9fb99c1d07889409a75c3410000803f4c37e9c010587940c74bdb410000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &387295864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,52 +1436,6 @@ Transform:
   - {fileID: 1545353820}
   m_Father: {fileID: 1949020721}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &544175734
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SparkleBurst_Shake_DirectionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 18
-  m_Height: 1
-  m_CompleteImageSize: 144
-  m_MipsStripped: 0
-  m_TextureFormat: 17
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 144
-  _typelessdata: 0737ec3ab833003c9935dcb9ad38003c5b357dbbd92e003c5c32deba91b7003c533319bb67b6003c5b357dbbd92e003ce8b1d33acfb7003c9935dcb9ad38003cf1b939b9d0b0003c9935dcb9ad38003cf1b939b9d0b0003c5bb1053b3237003c5b357dbbd92e003cb63648b8deb9003c5c32deba91b7003c1ab2f63a4537003cf1b939b9d0b0003c533319bb67b6003c
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &564612361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,6 +1529,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1089274156}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!28 &600795143
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparkleBurst_Shake_South_DirectionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 23
+  m_Height: 1
+  m_CompleteImageSize: 184
+  m_MipsStripped: 0
+  m_TextureFormat: 17
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 184
+  _typelessdata: 36b912baeb15003c36b912baeb15003c36b912baeb15003c36b912baeb15003c09372f3b03a6003c29a4f2395ab9003c013977a73d3a003c36b912baeb15003c09372f3b03a6003cc63899387ab8003c36b912baeb15003c36b912baeb15003c013977a73d3a003c36b912baeb15003c09372f3b03a6003c36b912baeb15003c36b912baeb15003c09372f3b03a6003c013977a73d3a003c36b912baeb15003c013977a73d3a003c36b912baeb15003c36b912baeb15003c
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &623698231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,52 +1776,6 @@ Transform:
   - {fileID: 627836607}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &643665353
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SparkleBurst_Shake_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 9
-  m_Height: 1
-  m_CompleteImageSize: 144
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 144
-  _typelessdata: aaf16641e6d06a406891b1400000803f6ce79241cba17d406abc943f0000803fc8765a41d34d864022db95400000803f62104e410f2d7a40e17a98400000803f20b05641b5c87640bc9f3a3f0000803f62104e4115ae8b404f8df73f0000803f7f6a7c41d34d86405fe5f03f0000803fa2454041e6d06a406891b1400000803f7f6a7c41c520684050e3e53e0000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &679311811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,6 +1914,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 56714544}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!28 &763573170
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparkleBurst_Shake_DirectionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 10
+  m_Height: 1
+  m_CompleteImageSize: 80
+  m_MipsStripped: 0
+  m_TextureFormat: 17
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 80
+  _typelessdata: eab841bacaae003ceab841bacaae003cf6b955393425003c1dba383573b8003cc1bbcf338426003c4fba7b29e838003c4fba7b29e838003cd6b9a43059b9003cc9379faef1ba003c6d390fb900b6003c
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &772047501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,12 +2203,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 111618071}
+      objectReference: {fileID: 1371148865}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[1].m_Value
       value: 
-      objectReference: {fileID: 643665353}
+      objectReference: {fileID: 69183574}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Overridden
@@ -2619,52 +2619,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 364500496}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &797727374
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SparkleBurst_Shake_South_DirectionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 23
-  m_Height: 1
-  m_CompleteImageSize: 184
-  m_MipsStripped: 0
-  m_TextureFormat: 17
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 184
-  _typelessdata: 36b912baeb15003c36b912baeb15003c36b912baeb15003c36b912baeb15003c09372f3b03a6003c29a4f2395ab9003c013977a73d3a003c36b912baeb15003c09372f3b03a6003cc63899387ab8003c36b912baeb15003c36b912baeb15003c013977a73d3a003c36b912baeb15003c09372f3b03a6003c36b912baeb15003c36b912baeb15003c09372f3b03a6003c013977a73d3a003c36b912baeb15003c013977a73d3a003c36b912baeb15003c36b912baeb15003c
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &799379184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2874,7 +2828,7 @@ VisualEffect:
       - m_Value: 16384
         m_Name: SpawnRate
         m_Overridden: 1
-      - m_Value: 0.05
+      - m_Value: 0.16090634
         m_Name: Density
         m_Overridden: 1
     m_Vector2f:
@@ -2889,7 +2843,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 0.69292223, y: 0.39906517, z: 0.1559982, w: 1}
+      - m_Value: {x: 0.6045498, y: 0.52072173, z: 0.34783253, w: 1}
         m_Name: AmbientColor
         m_Overridden: 1
     m_Uint:
@@ -2949,7 +2903,7 @@ VisualEffect:
           m_Curve:
           - serializedVersion: 3
             time: 0.570605
-            value: 0.3905872
+            value: 0.34232685
             inSlope: 0.20516253
             outSlope: 0.20516253
             tangentMode: 0
@@ -2958,12 +2912,12 @@ VisualEffect:
             outWeight: 0
           - serializedVersion: 3
             time: 0.9985951
-            value: 0.59608734
-            inSlope: 1.2198339
-            outSlope: 1.2198339
+            value: 0.76983315
+            inSlope: 2.992368
+            outSlope: 2.992368
             tangentMode: 0
             weightedMode: 0
-            inWeight: 0.061505333
+            inWeight: 0.04071077
             outWeight: 0
           m_PreInfinity: 2
           m_PostInfinity: 2
@@ -2975,8 +2929,8 @@ VisualEffect:
       - m_Value:
           serializedVersion: 2
           key0: {r: 0.16533832, g: 0.16533832, b: 0.16533832, a: 0}
-          key1: {r: 0.16533832, g: 0.16533832, b: 0.16533832, a: 0.36862746}
-          key2: {r: 0.2735849, g: 0.26971343, b: 0.26971343, a: 0.38039216}
+          key1: {r: 0.16533832, g: 0.16533832, b: 0.16533832, a: 0.34509805}
+          key2: {r: 0.2735849, g: 0.26971343, b: 0.26971343, a: 0.15686275}
           key3: {r: 0, g: 0, b: 0, a: 0}
           key4: {r: 0, g: 0, b: 0, a: 0}
           key5: {r: 0, g: 0, b: 0, a: 0}
@@ -2991,7 +2945,7 @@ VisualEffect:
           ctime6: 0
           ctime7: 0
           atime0: 0
-          atime1: 14399
+          atime1: 14649
           atime2: 50693
           atime3: 65535
           atime4: 65535
@@ -2999,7 +2953,7 @@ VisualEffect:
           atime6: 0
           atime7: 0
           m_Mode: 0
-          m_ColorSpace: 1
+          m_ColorSpace: -1
           m_NumColorKeys: 2
           m_NumAlphaKeys: 4
         m_Name: ColorOverLife
@@ -3477,52 +3431,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 627836607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &971570605
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SparkleBurst_Shake_DirectionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 10
-  m_Height: 1
-  m_CompleteImageSize: 80
-  m_MipsStripped: 0
-  m_TextureFormat: 17
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 80
-  _typelessdata: eab841bacaae003ceab841bacaae003cf6b955393425003c1dba383573b8003cc1bbcf338426003c4fba7b29e838003c4fba7b29e838003cd6b9a43059b9003cc9379faef1ba003c6d390fb900b6003c
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &975571991
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,6 +3529,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 639229246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!28 &1009930560
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparkleBurst_Shake_South_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 23
+  m_Height: 1
+  m_CompleteImageSize: 368
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 368
+  _typelessdata: 3e0a13c111583940180420410000803fb6f32dc1416065409eef3f400000803fb6f32dc141606540736807410000803faaf146c1d34d3240180420410000803f7b1436c18a412840f1d285c00000803f66660ec127319440f4fd44c00000803fb29d19c191edbc404035ce400000803fb6f32dc1416065409eef3f400000803f1d5a90c017d93640f1d285c00000803f3e0a2fc0efa792401c859bbf0000803f0f2da6c0c9762640180420410000803f508d2fc1bd742b40180420410000803fb29d19c1a69bb0405fba41400000803fb6f32dc1416065401a04963f0000803f2b87f6c0d7a32840f1d285c00000803fb6f32dc141606540448bb0400000803fb6f32dc1416065400e2d1ac00000803fa2450cc14e623840f1d285c00000803f8e977ec03bdfaf405fba41400000803fb91ec9c0ec512840180420410000803fc74bdfc03bdfaf405fba41400000803f310828c1bc749f400e2d1ac00000803f310828c1bc749f400e2d1ac00000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1013071599
 GameObject:
   m_ObjectHideFlags: 0
@@ -3824,12 +3778,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 1512948314}
+      objectReference: {fileID: 1531056182}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[1].m_Value
       value: 
-      objectReference: {fileID: 1702209907}
+      objectReference: {fileID: 1525360944}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Overridden
@@ -5314,12 +5268,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 797727374}
+      objectReference: {fileID: 600795143}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[1].m_Value
       value: 
-      objectReference: {fileID: 1955290799}
+      objectReference: {fileID: 1009930560}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Overridden
@@ -5502,6 +5456,52 @@ MonoBehaviour:
   blendDistance: 2
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 17df78b6a57fc6d48813671a87d200d3, type: 2}
+--- !u!28 &1371148865
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparkleBurst_Shake_DirectionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 9
+  m_Height: 1
+  m_CompleteImageSize: 72
+  m_MipsStripped: 0
+  m_TextureFormat: 17
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 72
+  _typelessdata: 003c00800000003c003c00000000003c003c00800000003c003c00800000003c003c00000000003c003c00000000003c003c00000000003c003c00800000003c003c00000000003c
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1382890857
 GameObject:
   m_ObjectHideFlags: 0
@@ -6567,7 +6567,84 @@ Transform:
   m_Children: []
   m_Father: {fileID: 540159141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &1512948314
+--- !u!1 &1514938957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1514938958}
+  m_Layer: 0
+  m_Name: SparkSource06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1514938958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514938957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.27143624, y: -0, z: -0, w: 0.96245646}
+  m_LocalPosition: {x: -2.132, y: 4.294, z: -1.143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1089274156}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!28 &1525360944
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparkleBurst_Shake_North_PositionMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 16
+  m_Height: 1
+  m_CompleteImageSize: 256
+  m_MipsStripped: 0
+  m_TextureFormat: 20
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 1
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 256
+  _typelessdata: 6e121541d1223340a245c6400000803feb51704017d93640f1d285c00000803f23dba940f2d22540f1d285c00000803f0f2da23fefa792401c859bbf0000803f85ebf140d1223340ac1c22410000803fe926a94090c22540ae4723410000803f27310c417493b0408c6c37400000803f3d0adf403208ac3fac1c22410000803f4a0c0c41efa792401c859bbf0000803f6e121541d1223340000002410000803f4e62c840a69bb0405fba41400000803fa14556402fdd3440ea2621410000803f39b4f440b91e3540f1d285c00000803f5c8f5240022bb3405fba41400000803f0d024bc02fdd3440180420410000803fac1c00412db2b1406766f63f0000803f
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!28 &1531056182
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6613,37 +6690,6 @@ Texture2D:
     offset: 0
     size: 0
     path: 
---- !u!1 &1514938957
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1514938958}
-  m_Layer: 0
-  m_Name: SparkSource06
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1514938958
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514938957}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.27143624, y: -0, z: -0, w: 0.96245646}
-  m_LocalPosition: {x: -2.132, y: 4.294, z: -1.143}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1089274156}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1545353819
 GameObject:
   m_ObjectHideFlags: 0
@@ -7307,12 +7353,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 544175734}
+      objectReference: {fileID: 239219741}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[1].m_Value
       value: 
-      objectReference: {fileID: 379361364}
+      objectReference: {fileID: 1711373466}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Overridden
@@ -7590,21 +7636,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 627836607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &1702209907
+--- !u!28 &1711373466
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SparkleBurst_Shake_North_PositionMap
+  m_Name: SparkleBurst_Shake_PositionMap
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_IsAlphaChannelOptional: 0
   serializedVersion: 3
-  m_Width: 16
+  m_Width: 18
   m_Height: 1
-  m_CompleteImageSize: 256
+  m_CompleteImageSize: 288
   m_MipsStripped: 0
   m_TextureFormat: 20
   m_MipCount: 1
@@ -7629,8 +7675,8 @@ Texture2D:
   m_LightmapFormat: 0
   m_ColorSpace: 1
   m_PlatformBlob: 
-  image data: 256
-  _typelessdata: 6e121541d1223340a245c6400000803feb51704017d93640f1d285c00000803f23dba940f2d22540f1d285c00000803f0f2da23fefa792401c859bbf0000803f85ebf140d1223340ac1c22410000803fe926a94090c22540ae4723410000803f27310c417493b0408c6c37400000803f3d0adf403208ac3fac1c22410000803f4a0c0c41efa792401c859bbf0000803f6e121541d1223340000002410000803f4e62c840a69bb0405fba41400000803fa14556402fdd3440ea2621410000803f39b4f440b91e3540f1d285c00000803f5c8f5240022bb3405fba41400000803f0d024bc02fdd3440180420410000803fac1c00412db2b1406766f63f0000803f
+  image data: 288
+  _typelessdata: a34587c1005be53c0e09b8410000803f06569ec104587940e8d7b5410000803fec5126c10a587940e8d7b5410000803f8f97c2c1d4f98640bafad6410000803f23db27c19e1a7f409ecbdb410000803f4c37e9c00e587940e8d7b5410000803f49e184c100ee7cbe270dda410000803f06569ec104587940e8d7b5410000803fe9fb99c1d07889409a75c3410000803fe27a85c106587940e8d7b5410000803fc62081c1d17889409a75c3410000803f84955bc1d4d0a23f891db1410000803fec5126c10a587940e8d7b5410000803f570e6fc16e68714063ecdd410000803f6cbca9c1d7f98640b9fad6410000803f7abe79c1b0ce573fbf7bb7410000803fe9fb99c1d07889409a75c3410000803f4c37e9c010587940c74bdb410000803f
   m_StreamData:
     serializedVersion: 2
     offset: 0
@@ -8331,52 +8377,6 @@ Transform:
   - {fileID: 1126618729}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &1955290799
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: SparkleBurst_Shake_South_PositionMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 23
-  m_Height: 1
-  m_CompleteImageSize: 368
-  m_MipsStripped: 0
-  m_TextureFormat: 20
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 1
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 368
-  _typelessdata: 3e0a13c111583940180420410000803fb6f32dc1416065409eef3f400000803fb6f32dc141606540736807410000803faaf146c1d34d3240180420410000803f7b1436c18a412840f1d285c00000803f66660ec127319440f4fd44c00000803fb29d19c191edbc404035ce400000803fb6f32dc1416065409eef3f400000803f1d5a90c017d93640f1d285c00000803f3e0a2fc0efa792401c859bbf0000803f0f2da6c0c9762640180420410000803f508d2fc1bd742b40180420410000803fb29d19c1a69bb0405fba41400000803fb6f32dc1416065401a04963f0000803f2b87f6c0d7a32840f1d285c00000803fb6f32dc141606540448bb0400000803fb6f32dc1416065400e2d1ac00000803fa2450cc14e623840f1d285c00000803f8e977ec03bdfaf405fba41400000803fb91ec9c0ec512840180420410000803fc74bdfc03bdfaf405fba41400000803f310828c1bc749f400e2d1ac00000803f310828c1bc749f400e2d1ac00000803f
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1961632318
 GameObject:
   m_ObjectHideFlags: 0
@@ -8408,7 +8408,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 627836607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &1962774934
+--- !u!1 &1965738281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1965738282}
+  m_Layer: 0
+  m_Name: SparkleSource05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1965738282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965738281}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3888784, y: -0, z: -0, w: 0.92128915}
+  m_LocalPosition: {x: 1.121, y: 5.561, z: -4.391}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1395806315}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!28 &1968497231
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8454,37 +8485,6 @@ Texture2D:
     offset: 0
     size: 0
     path: 
---- !u!1 &1965738281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1965738282}
-  m_Layer: 0
-  m_Name: SparkleSource05
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1965738282
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965738281}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.3888784, y: -0, z: -0, w: 0.92128915}
-  m_LocalPosition: {x: 1.121, y: 5.561, z: -4.391}
-  m_LocalScale: {x: 1, y: 1.0000002, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1395806315}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1986527194
 GameObject:
   m_ObjectHideFlags: 0
@@ -9114,12 +9114,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
       value: 
-      objectReference: {fileID: 971570605}
+      objectReference: {fileID: 763573170}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[1].m_Value
       value: 
-      objectReference: {fileID: 1962774934}
+      objectReference: {fileID: 1968497231}
     - target: {fileID: 257875267137798599, guid: a75ad050efa363b42b12b56915f6cec4,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Overridden

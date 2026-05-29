@@ -71,7 +71,7 @@ public class SpaceshipFPSPlayerInput : GameplayIngredients.Controllers.PlayerInp
 
         Vector2 l = LookAxis.ReadValue<Vector2>();
         m_Look = l.normalized * Mathf.Pow(Mathf.Clamp01(Mathf.Clamp01(l.magnitude) - LookDeadZone) / (1.0f - LookDeadZone), LookExponent);
-        m_Look += LookMouseAxis.ReadValue<Vector2>();
+        m_Look += LookMouseAxis.ReadValue<Vector2>() * (0.01666f / Time.unscaledDeltaTime);
     }
 
 
